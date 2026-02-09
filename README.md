@@ -1,8 +1,7 @@
 # Academic Organization Ontology
 
 ## Overview
-This project presents an **Academic Organization Ontology** designed to model the structure and relationships within a university environment.  
-The ontology is developed in **OWL 2.0** and implemented using **Protégé-2000**, following standard academic ontology engineering practices.
+This project presents an **Academic Organization Ontology** designed to model the structure and relationships within a university environment. The ontology is developed in **OWL 2.0** and implemented using **Protégé-2000**, following standard academic ontology engineering practices.
 
 ## Objectives
 - Represent academic entities such as universities, faculties, departments, programs, and people
