@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/academic/ontologies/2025/2/academic-organization"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/academic/ontologies/2025/2/academic-organization">
+    <Prefix name="" IRI="http://www.semanticweb.org/academic/ontologies/2025/2/academic-organization/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Academic_Year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Administrative_Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degree_Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assigned_Academic_Year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongs_To_University"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#collaborates_With"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conducts_Research_Project"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enrolled_In"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exam_For_Course"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Department"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Exam"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Faculty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Research_Group"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#held_In_Classroom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes_Course"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#located_In_Building"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#manages_Department"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#member_Of_Research_Group"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offers_Degree_Program"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#part_Of_Faculty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supervises_Student"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#teaches_Course"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#works_In_Department"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#academic_Year_Label"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#building_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#classroom_Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#course_Credits"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#course_Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#degree_Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#department_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email_Address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#exam_Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#exam_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#faculty_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#office_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#person_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phone_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#professor_Rank"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#project_Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#research_Area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#staff_Role"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#student_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#university_Name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#author"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#creation_Date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#example"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Administrative_Staff"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classroom"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <Class IRI="#Degree_Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Degree_Program"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Department"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exam"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <Class IRI="#University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professor"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Group"/>
+        <Class IRI="#Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Project"/>
+        <Class IRI="#Research_Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#author"/>
+        <IRI></IRI>
+        <Literal>Hanzoo Anwar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#creation_Date"/>
+        <IRI></IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2026-02-09</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#Course</IRI>
+        <Literal>A teaching unit that forms part of a degree program.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#example"/>
+        <IRI>#Degree_Program</IRI>
+        <Literal>Bachelor of Computer Science</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#Student</IRI>
+        <Literal>A person enrolled in a degree program offered by the university.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#University</IRI>
+        <Literal>An institution providing higher education, research, and academic degrees.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
