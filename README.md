@@ -30,7 +30,6 @@ The ontology is developed in **OWL 2.0** and implemented using **Protégé-2000*
 - Research_Project  
 
 ### Object Properties (20)
-Examples:
 - hasFaculty  
 - hasDepartment  
 - offersProgram  
@@ -52,7 +51,7 @@ Examples:
 - hasEmail  
 - hasAcademicRank  
 - hasEnrollmentYear
-- 
+
 ### Annotation Properties
 - definition  
 - example  
